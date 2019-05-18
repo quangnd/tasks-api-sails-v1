@@ -21,3 +21,9 @@ Experiences with [Sails framework v1](https://sailsjs.com) application
 ## Library should install
 
 - sails-hook-organics: `npm install sails-hook-organics --save`
+
+## Useful commands
+
+1. `sails generate action user/getUsers` will auto-generate `api/user/get-users.js`
+*Note: If change getUsers to getusers will auto-generate api/user/**getusers.js***
+2. `sails new tasks-api-sails-v1 --no-frontend` will create project just for API.

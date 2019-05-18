@@ -1,28 +1,14 @@
 module.exports = {
+  friendlyName: "Get users",
 
+  description: "",
 
-  friendlyName: 'Get users',
+  inputs: {},
 
+  exits: {},
 
-  description: '',
-
-
-  inputs: {
-
-  },
-
-
-  exits: {
-
-  },
-
-
-  fn: async function (inputs) {
-    sails.log.debug('TODO: impHellolement')
-    // All done.
-    return { user: 'quangnd'};
-
+  fn: async function(inputs) {
+    const users = await User.find();
+    return users;
   }
-
-
 };

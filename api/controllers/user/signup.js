@@ -50,7 +50,6 @@ module.exports = {
       .intercept({ name: "UsageError" }, "invalid")
       .fetch();
 
-    console.log(newUser)
-
+    return { username: newUser.username}
   }
 };

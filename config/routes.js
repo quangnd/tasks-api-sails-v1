@@ -9,6 +9,6 @@
  */
 
 module.exports.routes = {
-  'GET   /api/v1/user':                        { action: 'user/get-users' },
-  'POST   /api/v1/user':                        { action: 'user/signup' },
+  "GET   /api/v1/user": { action: "user/get-users" },
+  "POST  /api/v1/user": { action: "user/signup" }
 };
